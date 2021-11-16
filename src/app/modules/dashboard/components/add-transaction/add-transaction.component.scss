@@ -1,0 +1,21 @@
+
+
+input,textarea{
+    @apply w-full border border-gray-300 p-2 rounded-md;
+}
+
+.input-error{
+
+    @apply border-red-500;
+}
+
+.input-success{
+
+    @apply border-green-500;
+
+}
+
+
+input.ng-invalid.ng-touched {
+    border: 1px solid red;
+  }

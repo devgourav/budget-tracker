@@ -1,0 +1,9 @@
+
+
+input[type="string"],textarea{
+    @apply w-full border border-gray-300 p-2 rounded-md;
+}
+
+input[type="color"]{
+    @apply w-1/2 rounded-md;
+}
